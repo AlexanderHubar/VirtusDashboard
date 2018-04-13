@@ -1,0 +1,60 @@
+.Login, .Registration {
+  text-align: center; }
+
+.welcome {
+  padding: 5vmax 0;
+  color: #8492af;
+  font: 300 2.4vmax/14.4px Roboto, sans-serif; }
+  .welcome span {
+    color: #2093ef; }
+
+.welcome-input-wrap {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 1.5vmax; }
+
+.welcome-input, .welcome-input::placeholder {
+  background-color: #3a3e52;
+  z-index: 1;
+  font: 300 calc(0.3em + 1.2vmax)/14.4px Roboto, sans-serif;
+  color: #8492af;
+  padding: 14px 0; }
+
+.welcome-input {
+  padding-left: 30px;
+  width: 90%;
+  border: none; }
+  .welcome-input:focus .welcome-input-wrap {
+    border-bottom: 5px solid #2093ef; }
+
+.welcome-icon {
+  text-align: left;
+  font-size: 1.5vmax;
+  color: #2093ef; }
+
+.auth-tab {
+  margin-left: 10px; }
+
+@media only screen and (max-width: 1200px) {
+  .welcome {
+    font-size: 2.7vmax; } }
+
+@media only screen and (max-width: 992px) {
+  .welcome {
+    font-size: 3.1vmax; } }
+
+@media only screen and (max-width: 768px) {
+  .welcome {
+    font-size: 3.3vmax; } }
+
+@media only screen and (max-width: 576px) {
+  .welcome {
+    font-size: 3.3vmax; } }
+
+@media only screen and (max-width: 480px) {
+  .welcome {
+    font-size: 2.5vmax; } }
+
+@media only screen and (max-width: 320px) {
+  .welcome {
+    font-size: 2.0vmax; } }

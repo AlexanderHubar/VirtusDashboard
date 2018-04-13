@@ -1,0 +1,7 @@
+.HomeMainChart {
+  height: 460px;
+  overflow: hidden; }
+  .HomeMainChart .RaportChart {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }

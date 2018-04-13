@@ -1,0 +1,7 @@
+.page404 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1d44;
+  height: 100vh; }

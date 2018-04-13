@@ -1,0 +1,32 @@
+.InboxHomeMessage {
+  background: #2f3242;
+  border-bottom: 1px solid #3a3e52;
+  display: flex;
+  align-items: center;
+  padding: 8px 0; }
+  .InboxHomeMessage img {
+    min-width: 42px;
+    height: 42px;
+    margin: 14px; }
+  .InboxHomeMessage:hover {
+    background: #2b2d3c; }
+
+.inbox-message-header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px; }
+  .inbox-message-header p {
+    font-weight: 700;
+    color: #fff; }
+  .inbox-message-header span {
+    font-size: 13px;
+    color: #fff; }
+  .inbox-message-header-noread span {
+    color: #2093ef; }
+
+.inbox-message-text {
+  font: 400 14px Montserrat, sans-serif;
+  font-size: 13px;
+  color: #9ea3b4;
+  line-height: 20px;
+  padding-right: 35px; }

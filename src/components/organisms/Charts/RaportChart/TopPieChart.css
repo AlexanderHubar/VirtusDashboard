@@ -1,0 +1,14 @@
+.TopPieChart {
+  margin-left: 30px;
+  display: flex; }
+  .TopPieChart .pie-chart-item {
+    margin-right: 30px;
+    display: flex;
+    align-items: center; }
+  .TopPieChart .pie-chart-info {
+    line-height: 25px; }
+    .TopPieChart .pie-chart-info p {
+      font: 700 22px Montserrat, sans-serif; }
+    .TopPieChart .pie-chart-info span {
+      text-transform: uppercase;
+      color: #9ca1b2; }

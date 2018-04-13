@@ -1,0 +1,19 @@
+.Workflow, .Chats {
+  padding: 95px 0 0 100px; }
+
+.workflow-header, .chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2093ef; }
+
+.workflow-tab, .chat-tab {
+  font: 400 18px Montserrat, sans-serif; }
+  .workflow-tab a, .chat-tab a {
+    margin-left: 40px;
+    color: #2b2d3c; }
+  .workflow-tab .workflowTab-active, .workflow-tab .chatTab-active, .chat-tab .workflowTab-active, .chat-tab .chatTab-active {
+    color: #fff; }
+
+.workflow-wrap, .chat-wrap {
+  background: #2b2d3c; }

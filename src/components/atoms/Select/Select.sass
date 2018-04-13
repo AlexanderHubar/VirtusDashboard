@@ -1,0 +1,40 @@
+@import "../../../variables.sass"
+
+.select-wrap
+  .select-label
+    color: $font-color
+    font: 500 1.0vw Roboto, sans-serif
+    vertical-align: middle
+
+.Select
+  height: 36px
+  line-height: 16px
+  cursor: pointer
+  background: inherit
+  color: $font-color
+  font-weight: 400
+  font-size: 1vmax
+  padding: 0.4vmax 3.5vmax 0.4vmax 1vmax
+  border-radius: 30px
+  border: 1px solid #505464
+  -webkit-appearance: none
+  -moz-appearance: none
+
+  option
+    color: #0e1a35
+    font-weight: 500
+
+.select-caret
+  color: $font-color
+  margin-left: -25px
+
+.select-button
+  display: inline-block
+  margin: 20px
+  margin-right: 0
+
+.workflow-header, .chat-header
+  .select-wrap .select-label, .Select, .select-caret
+      color: #fff
+  .Select
+    border: 1px solid rgba(255, 255, 255, 0.3)

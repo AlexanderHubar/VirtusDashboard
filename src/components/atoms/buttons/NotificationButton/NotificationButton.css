@@ -1,0 +1,9 @@
+.notification-button {
+  font-size: 1.4vmax;
+  color: #fff;
+  border: none;
+  background: inherit;
+  margin-left: 1.9vmax;
+  transition: all 0.3s ease; }
+  .notification-button:hover {
+    color: #2093ef; }

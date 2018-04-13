@@ -1,0 +1,8 @@
+.raport-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; }
+  .raport-header-home {
+    padding: 0;
+    background: #2f3242; }

@@ -1,0 +1,11 @@
+.YourProjects {
+  height: 460px;
+  overflow: hidden; }
+
+.your-project-header {
+  font: 400 24px Montserrat, sans-serif;
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3a3e52; }

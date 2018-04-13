@@ -1,0 +1,85 @@
+.Authentication {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.auth-tab {
+  padding: 35px 0 35px;
+  display: flex;
+  position: relative; }
+  .auth-tab a {
+    padding: 0 40px;
+    font: 500 1.3vmax/48px Roboto, sans-serif;
+    color: #fff; }
+    .auth-tab a:hover {
+      color: #2093ef; }
+
+.LoginLink.ActiveTab::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  border-bottom: solid 5px #2093ef; }
+
+.RegisterLink.ActiveTab::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  border-bottom: solid 5px #2093ef; }
+
+.auth-wrapp {
+  width: 60%; }
+
+.auth-box {
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.auth {
+  background-color: #3a3e52; }
+
+.views-wrap {
+  box-shadow: 0 0 139px rgba(147, 161, 185, 0.59);
+  background-color: #3a3e52;
+  display: flex;
+  justify-content: center; }
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    width: 150px; }
+  .auth-tab {
+    padding: 25px 0 25px; }
+    .auth-tab a {
+      padding: 0 30px; } }
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 120px; }
+  .auth-tab {
+    padding: 18px 0 18px; }
+    .auth-tab a {
+      padding: 0 20px; } }
+
+@media only screen and (max-width: 576px) {
+  .logo {
+    width: 100px; }
+  .auth-box {
+    padding-left: 15px; }
+  .auth-tab {
+    padding: 5px 0 5px; }
+    .auth-tab a {
+      padding: 0 20px; } }
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    width: 60px; }
+  .auth-tab {
+    padding: 0; }
+    .auth-tab a {
+      padding: 0 10px; } }

@@ -1,0 +1,36 @@
+.select-wrap .select-label {
+  color: #9ca1b2;
+  font: 500 1.0vw Roboto, sans-serif;
+  vertical-align: middle; }
+
+.Select {
+  height: 36px;
+  line-height: 16px;
+  cursor: pointer;
+  background: inherit;
+  color: #9ca1b2;
+  font-weight: 400;
+  font-size: 1vmax;
+  padding: 0.4vmax 3.5vmax 0.4vmax 1vmax;
+  border-radius: 30px;
+  border: 1px solid #505464;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+  .Select option {
+    color: #0e1a35;
+    font-weight: 500; }
+
+.select-caret {
+  color: #9ca1b2;
+  margin-left: -25px; }
+
+.select-button {
+  display: inline-block;
+  margin: 20px;
+  margin-right: 0; }
+
+.workflow-header .select-wrap .select-label, .workflow-header .Select, .workflow-header .select-caret, .chat-header .select-wrap .select-label, .chat-header .Select, .chat-header .select-caret {
+  color: #fff; }
+
+.workflow-header .Select, .chat-header .Select {
+  border: 1px solid rgba(255, 255, 255, 0.3); }

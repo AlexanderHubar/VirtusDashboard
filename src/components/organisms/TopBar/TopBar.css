@@ -1,0 +1,32 @@
+.TopBar {
+  z-index: 1001;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5vmax 40px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2f3242; }
+
+.user-panel, .top-bar-left-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.bars-button {
+  color: #000;
+  border: none;
+  background: inherit;
+  margin-left: 5px; }
+
+.bars-caret-icon {
+  position: relative;
+  font-size: calc(0.3em + 0.8vmax);
+  bottom: 2px; }
+
+.top-bar-left-side {
+  display: flex;
+  align-items: center; }

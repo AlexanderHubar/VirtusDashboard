@@ -1,0 +1,32 @@
+.ProjectBlock {
+  background: #2f3242;
+  border-bottom: 1px solid #3a3e52;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0; }
+  .ProjectBlock img {
+    min-width: 42px;
+    height: 42px;
+    margin: 14px; }
+  .ProjectBlock:hover {
+    background: #2b2d3c; }
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  color: #fff; }
+  .project-header span {
+    font-size: 13px; }
+
+.project-wrap {
+  display: flex;
+  align-items: center; }
+
+.project-text {
+  font: 400 14px Montserrat, sans-serif;
+  font-size: 13px;
+  color: #9ea3b4;
+  line-height: 20px;
+  padding-right: 35px; }

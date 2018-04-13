@@ -1,0 +1,21 @@
+.add-project-button {
+  align-items: center;
+  display: flex;
+  color: #fff;
+  background: inherit;
+  font: 400 calc(0.25em + 0.6vmax) Montserrat, sans-serif;
+  letter-spacing: 0.24px;
+  height: 3vmax;
+  padding: 0.7vmax 1.4vmax;
+  border: 2px solid #2093ef;
+  border-radius: 50px;
+  transition: all 0.3s ease; }
+  .add-project-button-icon {
+    font-size: calc(0.1em + 0.8vmax);
+    color: #2093ef;
+    margin-left: 1.2vmax;
+    transition: .4s; }
+  .add-project-button:hover {
+    background-color: #3a3e52; }
+    .add-project-button:hover .add-project-button-icon {
+      transform: rotate(180deg); }

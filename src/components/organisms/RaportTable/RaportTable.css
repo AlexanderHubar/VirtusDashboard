@@ -1,0 +1,18 @@
+.dropdown-caret-table {
+  margin-left: 10px;
+  color: #9ea3b4; }
+
+.active-sorting {
+  color: #fff; }
+
+.table-status:before {
+  display: inline-block;
+  margin-right: 10px;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #f44336; }
+
+.table-status-active:before {
+  background: #4caf50; }

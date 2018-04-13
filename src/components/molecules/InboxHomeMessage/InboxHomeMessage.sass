@@ -1,0 +1,35 @@
+@import "../../../variables.sass"
+
+.InboxHomeMessage
+  background: $second-gray
+  border-bottom: 1px solid $gray
+  display: flex
+  align-items: center
+  padding: 8px 0
+  img
+    min-width: 42px
+    height: 42px
+    margin: 14px
+  &:hover
+    background: $third-gray
+
+.inbox-message-header
+  display: flex
+  justify-content: space-between
+  padding-right: 15px
+  p
+    font-weight: 700
+    color: #fff
+  span
+    font-size: 13px
+    color: #fff
+  &-noread
+    span
+      color: $accent-color
+
+.inbox-message-text
+  font: $second-font
+  font-size: 13px
+  color: $font-second-color
+  line-height: 20px
+  padding-right: 35px

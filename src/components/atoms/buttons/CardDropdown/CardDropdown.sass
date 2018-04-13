@@ -1,0 +1,68 @@
+@import '../../../../variables.sass'
+
+.dropdown--active .dropdown__content
+  display: block
+
+.dropdown__trigger
+  display: flex
+  align-items: center
+
+.dropdown-button__name
+  margin: 8px
+
+  &:hover .fa
+    transition: $transition
+    color: $accent-color
+
+.dropdown-button__avatar
+  height: 3vmax
+
+.dropdown-button
+  display: flex
+  margin: 10px
+
+.dropdown-dots
+  color: $font-second-color
+  font-size: .8vmax
+
+.dropdown__content
+  width: 10vmax
+  display: none
+  position: absolute
+  background: $second-gray
+  border: 1px solid $accent-color
+  border-radius: 5px
+  padding: 5px 15px 0 15px
+  margin-top: 60px
+  right: 20px
+
+.dropdown-button-content
+  margin-top: 5px
+  width: 140px
+
+.card-dropdown-button__link
+  &:hover a
+    color: $accent-color
+.dropdown-button__link__anchor
+  padding: 5px
+  display: inline-block
+  width: 100%
+  height: 100%
+
+
+//media-queries
+@media only screen and (max-width : 1200px)
+  .dropdown__content
+    width: 12vmax
+
+@media only screen and (max-width : 992px)
+  .dropdown__content
+    width: 15vmax
+
+@media only screen and (max-width : 768px)
+  .dropdown__content
+    width: 18vmax
+
+@media only screen and (max-width : 576px)
+  .dropdown__content
+    width: 20vmax

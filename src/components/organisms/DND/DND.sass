@@ -1,0 +1,62 @@
+@import "../../../variables.sass"
+
+.DND
+  min-height: 80vh
+  overflow-y: hidden
+  overflow-x: auto
+  display: flex
+  margin: 50px
+  &-header
+    margin: 0 20px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    p
+      font: $second-font
+      color: $font-second-color
+    span
+      color: $accent-color
+
+  .DND-header-name
+    font-size: 18px
+    color: #fff
+    margin-bottom: 5px
+
+  .DND-header-icon
+    color: $font-second-color
+    font-size: 18px
+
+  &-container
+    border-radius: 5px
+    height: 100%
+    min-width: 292px
+  &-card
+    background: $gray
+    border-radius: 5px
+    padding: 0.2rem 1rem
+    margin: 1.5rem
+    cursor: move
+    width: 300px
+    height: 94px
+    .ProjectBlock
+      background: $gray
+
+  &-card
+    &:hover
+      background: $second-gray
+    .ProjectBlock
+      &:hover
+        background: $second-gray
+
+
+.DND::-webkit-scrollbar
+  border-radius: 10px
+
+  background-color: #4d5060
+  height: 12px
+
+.DND::-webkit-scrollbar-thumb
+  border-radius: 10px
+  background-color: $accent-color
+  &:hover
+    background-color: darken($accent-color, 10%)

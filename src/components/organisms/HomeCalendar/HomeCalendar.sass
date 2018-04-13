@@ -1,0 +1,111 @@
+@import "../../../variables.sass"
+
+.react-calendar
+  margin: auto
+  height: 380px
+  width: 100%
+  background: #2f3242
+  border: none
+  font: 400 14px Montserrat, sans-serif
+  line-height: 1.125em
+
+  &, & *, & *:before, & *:after
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+
+  button
+    margin: 0
+    border: 0
+    outline: none
+    font: 400 14px Montserrat, sans-serif
+
+    &:enabled
+      &:hover
+        cursor: pointer
+
+  &__navigation
+    height: 94px
+    background-color: #3a3e52
+
+    button
+      min-width: 44px
+      background: none
+      font: $big-home-font
+
+      &:enabled
+        &:hover, &:focus
+          background: lighten($accent-color, 30%)
+
+      &[disabled]
+        background: lighten($accent-color, 30%)
+
+  &__month-view
+    &__weekdays
+      color: #9ea3b4
+      text-align: center
+      text-transform: uppercase
+      font-weight: normal
+      font-size: .65em
+
+      &__weekday
+        padding: .1em
+
+    &__weekNumbers
+      font-weight: bold
+
+      .react-calendar__tile
+        display: flex
+        align-items: center
+        justify-content: center
+        font-size: .75em
+        padding: calc(.75em / .75)
+
+    &__days
+      &__day
+        &--weekend
+          color: #fff
+
+
+        &--neighboringMonth
+          color: #9ea3b4
+
+  &__year-view,
+  &__decade-view,
+  &__century-view
+    .react-calendar__tile
+      padding: 2em .5em
+
+  &__tile
+    max-width: 100%
+    text-align: center
+    padding: .75em .5em
+    background: none
+
+    button:disabled
+      background: lighten($accent-color, 30%)
+
+    button:enabled
+      &:hover, &:focus
+        background: lighten($accent-color, 30%)
+
+    &--hasActive
+      background: lighten(rgb(0, 110, 220), 30%)
+
+      button:enabled
+        &:hover, &:focus
+          background: lighten(rgb(0, 110, 220), 30%)
+
+    &--active
+      background: $accent-color
+      border-radius: 50%
+
+      button:enabled
+        &:hover, &:focus
+          background: lighten(rgb(0, 110, 220), 30%)
+
+    &--selectRange
+      .react-calendar__tile
+        &--hover
+          background: lighten($accent-color, 30%)
+

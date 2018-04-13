@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font: 400 14px/28px Montserrat, sans-serif;
+  background: #2a2c3b;
+  color: #fff; }
+
+div, menu, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, legend, label, select, input, textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none; }
+
+button {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+  cursor: pointer; }
+
+select, input, textarea, button {
+  font: 14px/28px Montserrat, sans-serif;
+  vertical-align: middle; }
+
+textarea {
+  vertical-align: top; }
+
+:focus {
+  outline: none; }
+
+input[type=submit] {
+  cursor: pointer; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  transition: all 0.5s ease;
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover {
+    text-decoration: none; }
+
+::-webkit-input-placeholder {
+  font: 14px/28px Montserrat, serif;
+  color: #fff; }
+
+::-moz-placeholder {
+  color: #fff;
+  font: 14px/28px Montserrat, serif; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+.HomeMainChart, .YourProjects, .SalesReport, .Inbox, .Calendar {
+  padding-bottom: 15px; }
